@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cari Mobil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto gap-1">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#our-services">Our Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#why-us">Why Us </a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonial </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item cta-btn">
+                    <a class="nav-link" href="#">Register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="container-fluid d-flex flex-column gap-5 align-items-center flex-lg-row bd-highlight mb-3">
+            <div class="col txt">
+              <h1 class="h1-txt-home">Sewa & Rental Mobil Terbaik di kawasan Surabaya</h2>
+              <p class="p-txt-home">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+            </div>
+            <div class="col align-self-end">
+              <img class="img-car" src="assets/img_car.png" alt="mobil">
+            </div>
+        </div>
+      </section>
+      <form id="search" class="container p-3 rounded">
+        <div class="row align-items-end">
+            <div class="col">
+                <p>Tipe Driver</p>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="driver-type" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pilih Tipe Driver
+                      </button>
+                      <ul id="driver-type-list" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item driver-item" href="#">Dengan Sopir</a></li>
+                        <li><a class="dropdown-item driver-item" href="#">Tanpa Sopir (Lepas Kunci)</a></li>
+                      </ul>
+                </div>
+            </div>
+            <div class="col">
+                <p>Tanggal</p>
+                <input id="tanggal" class="btn btn-secondary dropdown-toggle" type="date">
+            </div>
+            <div class="col">
+                <p>Waktu Jemput/Ambil</p>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pilih Waktu
+                      </button>
+                      <ul id="time-list" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item time-item" href="#">08.00 WIB</a></li>
+                        <li><a class="dropdown-item time-item" href="#">09.00 WIB</a></li>
+                        <li><a class="dropdown-item time-item" href="#">10.00 WIB</a></li>
+                        <li><a class="dropdown-item time-item" href="#">11.00 WIB</a></li>
+                        <li><a class="dropdown-item time-item" href="#">12.00 WIB</a></li>
+                      </ul>
+                </div>
+            </div>
+            <div class="col">
+                <p>Jumlah Penumpang (optional)</p>
+                <input id="jmlhPenumpang" type="number" class="form-control form-control-sm" placeholder="Jumlah Penumpang"/>
+            </div>
+            <div class="col text-center">
+                <button class="btn btn-success" type="submit" id="load-btn">Cari Mobil</button>
+            </div>
+        </div>
+      </form>
+      <section id="cars-container">
+        
+      </section>
+    <footer>
+        <div class="container d-flex flex-column flex-lg-row justify-content-lg-between">
+          <div class="section-1 d-flex flex-column gap-2">      
+            <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+            <p>binarcarrental@gmail.com</p>
+            <p>081-233-334-808</p>
+          </div>
+          <div class="section-2 d-flex flex-column gap-1">
+            <p>Our Services</p>
+            <p>Why Us</p>
+            <p>Testimonial</p>
+            <p>FAQ</p>
+          </div>
+          <div class="section-3 d-flex flex-column">
+            <p>Connect with us</p>
+            <div class="d-flex gap-2">
+              <a href="#"><img src="assets/icon_facebook.png" alt="facebook logo"></a>
+              <a href="#"><img src="assets/icon_instagram.png" alt="Instagram logo"></a>
+              <a href="#"><img src="assets/icon_twitter.png" alt="Twitter logo"></a>
+              <a href="#"><img src="assets/icon_mail.png" alt="Mail logo"></a>
+              <a href="#"><img src="assets/icon_twitch.png" alt="Twitch logo"></a>
+            </div>
+          </div>
+          <div class="section-4 d-flex flex-column">
+            <p>Copyright Binar 2022</p>
+            <div class="logo"></div>
+          </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <script type="text/javascript" src="./scripts/app.example.js"></script>
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <script type="text/javascript" src="./scripts/main.example.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+* {
+    font-family: Helvetica;
+    font-style: normal;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    background: #0d28a6;
+    width: 100px;
+    height: 34px;
+}
+
+.navbar {
+    padding: 1rem 0;
+    background: #F1F3FF;
+}
+
+.nav-item.cta-btn .nav-link {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+.nav-item.cta-btn {
+    padding: 1px;
+}
+
+.navbar .nav-item .nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: #000;
+    transition: all ease-in-out 0.2s;
+}
+
+.nav-item {
+    padding: 2px;
+}
+
+.navbar .nav-item .nav-link:hover {
+    opacity: 0.7;
+}
+
+.home .cta-btn {
+    margin-top: 16px;
+}
+
+.cta-btn {
+    font-weight: 700 !important;
+    color: #fff !important;
+    background: #5cb85f;
+    border: none;
+    border-radius: 1.6px;
+    transition: all ease-in-out 0.2s;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.home {
+    background: #F1F3FF;
+    margin-top: 57px;
+}
+
+.home .col {
+    position: relative;
+    left: 60px;
+}
+
+.img-car {
+    width: 100%;
+    min-height: 100%;
+}
+
+.h1-txt-home {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.p-txt-home {
+    padding-top: 20px;
+    padding-right: 90px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.col.txt {
+    padding-top: 60px;
+}
+
+#our-services .container {
+    margin-top: 104px;
+}
+
+.col.services-txt {
+    padding-top: 36px;
+}
+
+#our-services li {
+    list-style-image: url(assets/check.svg);
+    padding: 10px;
+}
+
+.col.services-txt h2 {
+    font-weight: 700;
+}
+
+.col.services-txt p {
+    margin-top: 24px;
+}
+#testimonial {
+    margin-bottom: 80px;
+}
+#why-us { 
+    margin: 136px;
+}
+
+#why-us p {
+    padding-top: 16px;
+}
+
+#why-us .col {
+    margin-right: 10px;
+    border: 1px solid #D0D0D0;
+    padding: 24px;
+    border-radius: 12px;
+    width: 268px;
+    height: 196px;
+}
+
+#why-us .mobil-lengkap h3 {
+    width: 113px;
+    height: 24px;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#why-us .harga-murah h3 {
+    width: 98px;
+    height: 24px;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#why-us .layanan-24jam h3 {
+    width: 124px;
+    height: 24px;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#why-us .profesional h3 {
+    width: 133px;
+    height: 24px;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+#why-us .container p {
+    width: 180px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#why-us .row {
+    margin-top: 40px;
+}
+
+.cta-banner .container {
+    background: #0D28A6;
+    color: #FFFFFF;
+    padding: 4rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#faq {
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+footer {
+    margin-top: 180px;
+    padding-bottom: 40px;
+}
+
+footer .section-1 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .section-2 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+footer .section-3 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .section-4 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .logo {
+    width: 100px;
+    height: 34px;
+    background-color: #0d28a6;
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav{
+      width: 100vw;
+      margin-right: 0;
+    }
+
+    .h1-txt-home{
+        width: 60vw;
+    }
+}
+
+#search .btn {
+    background-color: transparent;
+    color: #000;
+}
+
+#search{
+    position: relative;
+    top: -55px;
+    box-shadow: 0px 0px 5px grey;
+    background-color: white;
+}
+
+#load.btn {
+    background-color: #5cb85f;
+}
+
+#cars-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
